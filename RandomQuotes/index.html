@@ -7,7 +7,18 @@
     	<meta charset="utf-8">
 
     	<link rel="stylesheet" type="text/css" href="style.css" media="screen">
-    	<script language="JavaScript" src="script.js"></script>
+    	<script type="text/javascript" src="script.js"></script>
+
+    	<script> 
+    	/*var url = "http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=random&callback=";
+    	var xhr = createCORSRequest('GET', url);
+		if (!xhr) {
+  			throw new Error('CORS not supported');
+  		} else {
+  			alert("It works!");
+  		}*/
+  		//var xhr2 = makeCorsRequest();
+  		</script>
 	</head>
 
 	<body class="bkgc">
@@ -17,7 +28,7 @@
 	      		<p id="author"></p>
 	      		<div class="row btn-pos">
 	        		<div class="col-xs-9"><button class="btn fa fa-twitter fa-lg white-font bkgc"></button></div>
-	        		<div class="col-xs-3"><button class="btn white-font bkgc" id="get-quote" onclick="change()">New quote</button></div>
+	        		<div class="col-xs-3"><button class="btn white-font bkgc" id="get-quote" onclick="change()" >New quote</button></div>
 	      		</div>
 	    	</div>
 	  	</div>

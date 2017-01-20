@@ -130,16 +130,17 @@ $('#get-quote').on('click', function(e) {
   });
 //});
 */
-
+/*
 $(document).ready(function() {
 	$("#get-quote").on("click", function(){
-		$.getJSON("http://api.forismatic.com/api/1.0/getQuote&key=457653&format=json&lang=en", function(a) {
-  			$("#quote-content").html("<i class='fa fa-quote-left fa-pull-left fa-2x'></i>" + "<p style='font-size:large;'>" + a[0].quoteText + "</p>");
-			$("#author").html("<p class='text-center'>— " + a[0].quoteAuthor + "</p>");
+    $('p').html('good so far');
+		$.getJSON("http://api.forismatic.com/api/1.0/getQuote&key=random&format=json&lang=en", function(a) {
+  		$("#quote-content").text(a.quoteText);
+			$("#author").text(a.quoteAuthor);
 		});
 	});
 });
-
+*/
 function change() {
 	var x = Math.floor(Math.random() * 256); // range is 0-255
 	var y = Math.floor(Math.random() * 256);
