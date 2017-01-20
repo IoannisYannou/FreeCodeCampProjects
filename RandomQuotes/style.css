@@ -1,0 +1,27 @@
+.bkgc {
+  background-color: orange;
+}
+
+.white-font {
+  color: white;
+}
+
+.rectangle {
+  background-color: white;
+  position: relative;
+  width: 50%;
+  height: 400px;
+  top: 300px;
+  left: 25%;
+}
+
+.btn-pos {
+  position: relative;
+  top: 340px;
+  left: 30px;
+}
+
+.quote-pos {
+  position: relative;
+  top: 50px;
+}
