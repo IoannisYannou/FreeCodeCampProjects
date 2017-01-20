@@ -5,8 +5,8 @@ $(document).ready(function() {
       url: 'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=',
       success: function(data) {
         var post = data.shift(); // The data is an array of posts. Grab the first one.
-        $('#quote-content').html(post.content);
-        $('#quote-author').text(post.title);
+        $('#quote-content').html("<i class='fa fa-quote-left fa-pull-left'></i>" + post.content);
+        $('#quote-author').html("- " + post.title);
       },
       cache: false
     });
@@ -22,4 +22,6 @@ function change() {
 	for (var i=0; i<elements.length; i++) {
 		elements[i].style.backgroundColor=thergb;
 	}
+  document.getElementById("quote-content").style.color=thergb;
+  document.getElementById("quote-author").style.color=thergb;
 }
