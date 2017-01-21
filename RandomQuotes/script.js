@@ -6,7 +6,7 @@ $(document).ready(function() {
       success: function(data) {
         var post = data.shift(); // The data is an array of posts. Grab the first one.
         var content = post.content;
-        $('#quote-content').html("<i class='fa fa-quote-left'></i>" + content.slice(3,-5));
+        $('#quote-content').html("<i class='fa fa-quote-left'></i>" + "  " + content.slice(3,-5));
         $('#quote-author').html("- " + post.title);
       },
       cache: false

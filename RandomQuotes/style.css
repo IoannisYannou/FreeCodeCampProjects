@@ -22,7 +22,6 @@
   margin: 40px 40px 10px 40px;
   font-size: 25px;
   text-align: center;
-  /*top: 40px;*/
 }
 
 .quoteAuthor-pos {
@@ -30,20 +29,19 @@
   position: relative;
   padding-right: 50px;
   text-align: right;
+  font-size: 16px;
 }
 
 .btn-pos {
-  display: block;
-  /*top: 340px;
-  left: 30px;*/
+  display: inline-block;
+  margin: 20px 50px 40px 50px;
 }
 
 #get-quote {
   display: inline-block;
-  margin: 50px 50px 50px 259px;
+  margin-left: 309px;
 }
 
 .btn-twitter {
   display: inline-block;
-  margin: 50px 50px 50px 50px;
 }
