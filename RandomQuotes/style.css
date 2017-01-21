@@ -39,9 +39,12 @@
 
 #get-quote {
   display: inline-block;
-  margin-left: 309px;
+  margin-left: 293px;
+  padding: 8px 21px;
+  font-color: white;
 }
 
 .btn-twitter {
   display: inline-block;
+  padding: 11px 11px;
 }
