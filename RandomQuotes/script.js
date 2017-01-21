@@ -5,7 +5,7 @@ $(document).ready(function() {
       url: 'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=',
       success: function(data) {
         var post = data.shift(); // The data is an array of posts. Grab the first one.
-        $('#quote-content').html("<i class='fa fa-quote-left fa-pull-left'></i>" + post.content);
+        $('#quote-content').html("<i class='fa fa-quote-left'></i>" + post.content);
         $('#quote-author').html("- " + post.title);
       },
       cache: false

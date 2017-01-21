@@ -18,11 +18,10 @@
 }
 
 .quoteContent-pos {
-  display: block;
-  position: relative;
-  padding-left: 20px;
-  padding-right: 20px;
+  display: inline-block;
+  margin: 40px 40px 10px 40px;
   font-size: 25px;
+  text-align: center;
   /*top: 40px;*/
 }
 
@@ -37,4 +36,14 @@
   display: block;
   /*top: 340px;
   left: 30px;*/
+}
+
+#get-quote {
+  display: inline-block;
+  margin: 50px 50px 50px 259px;
+}
+
+.btn-twitter {
+  display: inline-block;
+  margin: 50px 50px 50px 50px;
 }
