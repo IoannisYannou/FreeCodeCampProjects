@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<meta charset="utf-8">
+		<title> Local Weather App </title>
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+		<script type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
-		<h1> Free Code Camp Weather App </h1>
+		<div class="container-fluid">
+			<h1> Local Weather App </h1>
+			<div class="current-location"></div>
+			<div class="temperature">
+				<p><!-- The temperature will go in here --> </p>
+				<button id="temperature-setting" onclick='change()'> C </button>
+			</div>
+		</div>
 	</body>
 </html>

@@ -1,0 +1,25 @@
+body {
+	background-color: #161616;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ button { 
+ 	background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: blue;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+ }
