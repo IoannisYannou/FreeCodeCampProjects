@@ -4,10 +4,16 @@ $(document).ready(function() {
     $.ajax( {
       url: 'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=',
       success: function(data) {
-        var post = data.shift(); // The data is an array of posts. Grab the first one.
-        var content = post.content;
-        $('#quote-content').html("<i class='fa fa-quote-left'></i>" + "  " + content.slice(3,-5));
-        $('#quote-author').html("- " + post.title);
+        var post1 = data.shift(); // The data is an array of posts. Grab the first one.
+        var content = post1.content;
+        $('#quote-content').fadeTo(500, 0, function() {
+          $(this).html("<i class='fa fa-quote-left'></i>" + " " + content.slice(3,-5)).delay(1000).fadeTo(500, 1);
+        });
+        //$('#quote-content').fadeTo(500, 1);
+        //$('#quote-author').fadeOut(1000, function() {        
+        //  $('#quote-author').html("- " + post.title);
+        //});
+        //$('#quote-author').fadeIn(1000);
       },
       cache: false
     });
