@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    	<meta charset="utf-8">
+
+		<title> Wikipedia Viewer </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div id="content">
+				<a href="https://en.wikipedia.org/wiki/Special:Random"> Click here for a random article</a>
+				<input type="image" names="titles" src="magnifying_glass.png" onclick="change()">
+				<p>Click icon to search</p>
+				<p id="demo"> There are this many nodes in #content </p>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- Maybe try this:
+	<button>
+		<img src="magnifying_glass.png">
+	</button>
+
+	and then try to replace the button element with the input -->

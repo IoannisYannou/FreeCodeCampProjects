@@ -1,0 +1,15 @@
+body {
+	background-color: #092B40;
+	color: white;
+}
+
+#content {
+	text-align: center;
+	position: relative;
+	/* Look up how to vertically center elements and divs */
+}
+
+a {
+	color:white;
+}
+
